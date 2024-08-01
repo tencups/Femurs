@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    border: 1px solid rgb(208, 28, 28);
+    
+}
+
+audio {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
